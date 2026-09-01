@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/jurisprudencia-mcp",
+  "title": "Jurisprudência",
+  "description": "Brazilian case law search for AI agents across 17 courts, with the matching snippet and the official",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/jurisprudencia-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_jurisprudencia"
+    }
+  ]
+}
